@@ -1,0 +1,17 @@
+{
+  "name": "gamehub",
+  "version": "1.0.0",
+  "description": "سوپر‌اپ بازی‌های رقابتی آفلاین/آزمایشی",
+  "main": "index.js",
+  "scripts": {
+    "build:android": "cordova build android",
+    "build:release": "cordova build android -- --release",
+    "prepare": "cordova prepare android",
+    "emulate": "cordova emulate android",
+    "run": "cordova run android"
+  },
+  "devDependencies": {
+    "cordova": "^12.0.0",
+    "cordova-android": "^12.0.0"
+  }
+}

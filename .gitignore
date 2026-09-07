@@ -1,0 +1,31 @@
+# Cordova
+platforms/
+plugins/
+node_modules/
+plugin.xml
+.DS_Store
+www/plugins/
+www/cordova.js
+www/cordova_plugins.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Android
+.gradle/
+build/
+*.keystore
+*.jks
+
+# npm
+npm-debug.log
+yarn-error.log
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
