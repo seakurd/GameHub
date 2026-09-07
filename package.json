@@ -1,17 +1,1 @@
-{
-  "name": "gamehub",
-  "version": "1.0.0",
-  "description": "سوپر‌اپ بازی‌های رقابتی آفلاین/آزمایشی",
-  "main": "index.js",
-  "scripts": {
-    "build:android": "cordova build android",
-    "build:release": "cordova build android -- --release",
-    "prepare": "cordova prepare android",
-    "emulate": "cordova emulate android",
-    "run": "cordova run android"
-  },
-  "devDependencies": {
-    "cordova": "^12.0.0",
-    "cordova-android": "^12.0.0"
-  }
-}
+{\n  \"name\": \"gamehub\",\n  \"version\": \"1.0.0\",\n  \"description\": \"سوپر‌اپ بازی‌های رقابتی آفلاین/آزمایشی - Offline/Demo Competitive Games Super App\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"build:android\": \"cordova build android\",\n    \"build:android:release\": \"cordova build android --release\",\n    \"build:android:debug\": \"cordova build android --debug\",\n    \"prepare\": \"cordova prepare android\",\n    \"emulate\": \"cordova emulate android\",\n    \"run:android\": \"cordova run android\",\n    \"run:android:emulator\": \"cordova emulate android\",\n    \"clean\": \"rm -rf platforms plugins node_modules www/cordova.js www/cordova_plugins.js\",\n    \"setup\": \"cordova platform add android && cordova prepare\",\n    \"dev\": \"cordova run android\",\n    \"release\": \"cordova build android --release\"\n  },\n  \"keywords\": [\n    \"games\",\n    \"backgammon\",\n    \"blackjack\",\n    \"poker\",\n    \"chess\",\n    \"ludo\",\n    \"domino\",\n    \"hokm\",\n    \"cordova\",\n    \"android\"\n  ],\n  \"author\": \"GameHub Team\",\n  \"license\": \"MIT\",\n  \"devDependencies\": {\n    \"cordova\": \"^12.0.0\",\n    \"cordova-android\": \"^12.0.0\"\n  },\n  \"cordova\": {\n    \"platforms\": [\n      \"android\"\n    ],\n    \"plugins\": {\n      \"cordova-plugin-device\": {},\n      \"cordova-plugin-statusbar\": {},\n      \"cordova-plugin-splashscreen\": {}\n    }\n  }\n}\n
