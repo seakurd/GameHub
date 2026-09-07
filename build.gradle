@@ -1,0 +1,14 @@
+// GameHub Gradle Build Configuration
+// Optimizations and settings for Android build
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+wrapper {
+    gradleVersion = "8.0"
+    distributionType = Wrapper.DistributionType.ALL
+}
